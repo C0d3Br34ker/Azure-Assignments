@@ -1,0 +1,17 @@
+{
+  "$connections": {
+    "value": {
+      "keyvault-1": {
+        "connectionId": "/subscriptions/<Subscription ID>/resourceGroups/<ResourceGroups Name>/providers/Microsoft.Web/connections/keyvault-1", // Replace placeholders with actual values
+        "connectionName": "keyvault-1",
+        "connectionProperties": {
+          "authentication": {
+            "type": "ManagedServiceIdentity"
+          }
+        },
+        "id": "/subscriptions/<Subscription ID>/providers/Microsoft.Web/locations/<location>/managedApis/keyvault" // Replace placeholders with actual values
+      }
+    }
+  }
+}
+// Replace "keyVault-1" with Your API Connection
